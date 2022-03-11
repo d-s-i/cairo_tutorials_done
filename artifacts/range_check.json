@@ -1,0 +1,2356 @@
+{
+    "attributes": [],
+    "builtins": [
+        "range_check"
+    ],
+    "data": [
+        "0x400380007ffc7ffd",
+        "0x482680017ffc8000",
+        "0x1",
+        "0x208b7fff7fff7ffe",
+        "0x400380007ff97ffa",
+        "0x400380017ff97ffb",
+        "0x400380027ff97ffc",
+        "0x400380037ff97ffd",
+        "0x482680017ffc8000",
+        "0x800000000000011000000000000000000000000000000000000000000000000",
+        "0x48287ffb80007fff",
+        "0x400280047ff97fff",
+        "0x482680017ffd8000",
+        "0x800000000000011000000000000000000000000000000000000000000000000",
+        "0x48287ffb80007fff",
+        "0x400280057ff97fff",
+        "0x482680017ffa8000",
+        "0x800000000000011000000000000000000000000000000000000000000000000",
+        "0x48287ffd80007fff",
+        "0x400280067ff97fff",
+        "0x480680017fff8000",
+        "0xffffffffffffffff",
+        "0x48287ffa80007fff",
+        "0x400280077ff97fff",
+        "0x482680017ff98000",
+        "0x8",
+        "0x208b7fff7fff7ffe",
+        "0x481280007fff8000",
+        "0x400380007ffc7ffd",
+        "0x480680017fff8000",
+        "0xffffffffffffffffffffffffffffffff",
+        "0x48287ffd80007fff",
+        "0x400280017ffc7fff",
+        "0x400280027ffc7ffd",
+        "0x480680017fff8000",
+        "0xffffffffffffffffffffffffffffffff",
+        "0x48307ffc80007fff",
+        "0x400280037ffc7fff",
+        "0x480680017fff8000",
+        "0x3",
+        "0x40517ffa7fff7ffd",
+        "0x482680017ffc8000",
+        "0x4",
+        "0x208b7fff7fff7ffe",
+        "0x480680017fff8000",
+        "0x14",
+        "0x480680017fff8000",
+        "0xa",
+        "0x480680017fff8000",
+        "0xd",
+        "0x480680017fff8000",
+        "0xe",
+        "0x480a7ffd7fff8000",
+        "0x48127ffc7fff8000",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffe6",
+        "0x208b7fff7fff7ffe"
+    ],
+    "debug_info": {
+        "file_contents": {},
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.serialize",
+                    "starkware.cairo.common.serialize.serialize_word"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.serialize.serialize_word.output_ptr": 1,
+                        "starkware.cairo.common.serialize.serialize_word.word": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 31,
+                    "end_line": 3,
+                    "input_file": {
+                        "filename": "/usr/local/lib/python3.7/site-packages/starkware/cairo/common/serialize.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 3
+                }
+            },
+            "1": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.serialize",
+                    "starkware.cairo.common.serialize.serialize_word"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.serialize.serialize_word.output_ptr": 2,
+                        "starkware.cairo.common.serialize.serialize_word.word": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 4,
+                    "input_file": {
+                        "filename": "/usr/local/lib/python3.7/site-packages/starkware/cairo/common/serialize.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 39,
+                            "end_line": 2,
+                            "input_file": {
+                                "filename": "/usr/local/lib/python3.7/site-packages/starkware/cairo/common/serialize.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 14,
+                                    "end_line": 5,
+                                    "input_file": {
+                                        "filename": "/usr/local/lib/python3.7/site-packages/starkware/cairo/common/serialize.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 5
+                                },
+                                "While trying to retrieve the implicit argument 'output_ptr' in:"
+                            ],
+                            "start_col": 21,
+                            "start_line": 2
+                        },
+                        "While expanding the reference 'output_ptr' in:"
+                    ],
+                    "start_col": 22,
+                    "start_line": 4
+                }
+            },
+            "3": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.serialize",
+                    "starkware.cairo.common.serialize.serialize_word"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.serialize.serialize_word.output_ptr": 2,
+                        "starkware.cairo.common.serialize.serialize_word.word": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 5,
+                    "input_file": {
+                        "filename": "/usr/local/lib/python3.7/site-packages/starkware/cairo/common/serialize.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 5
+                }
+            },
+            "4": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 26,
+                    "end_line": 15,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 15
+                }
+            },
+            "5": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 30,
+                    "end_line": 16,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 16
+                }
+            },
+            "6": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 30,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 17
+                }
+            },
+            "7": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 30,
+                    "end_line": 18,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 18
+                }
+            },
+            "8": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 42,
+                    "end_line": 19,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 37,
+                    "start_line": 19
+                }
+            },
+            "10": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 19,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 37,
+                    "start_line": 19
+                }
+            },
+            "11": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 19,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 19
+                }
+            },
+            "12": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 42,
+                    "end_line": 20,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 37,
+                    "start_line": 20
+                }
+            },
+            "14": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.__temp2": 10,
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 20,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 37,
+                    "start_line": 20
+                }
+            },
+            "15": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.__temp2": 10,
+                        "__main__.foo.__temp3": 11,
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 20,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 20
+                }
+            },
+            "16": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.__temp2": 10,
+                        "__main__.foo.__temp3": 11,
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 42,
+                    "end_line": 21,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 37,
+                    "start_line": 21
+                }
+            },
+            "18": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 5
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.__temp2": 10,
+                        "__main__.foo.__temp3": 11,
+                        "__main__.foo.__temp4": 12,
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 21,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 37,
+                    "start_line": 21
+                }
+            },
+            "19": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.__temp2": 10,
+                        "__main__.foo.__temp3": 11,
+                        "__main__.foo.__temp4": 12,
+                        "__main__.foo.__temp5": 13,
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 21,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 21
+                }
+            },
+            "20": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.__temp2": 10,
+                        "__main__.foo.__temp3": 11,
+                        "__main__.foo.__temp4": 12,
+                        "__main__.foo.__temp5": 13,
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 47,
+                    "end_line": 22,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 36,
+                    "start_line": 22
+                }
+            },
+            "22": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 7
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.__temp2": 10,
+                        "__main__.foo.__temp3": 11,
+                        "__main__.foo.__temp4": 12,
+                        "__main__.foo.__temp5": 13,
+                        "__main__.foo.__temp6": 14,
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 51,
+                    "end_line": 22,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 36,
+                    "start_line": 22
+                }
+            },
+            "23": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 8
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.__temp2": 10,
+                        "__main__.foo.__temp3": 11,
+                        "__main__.foo.__temp4": 12,
+                        "__main__.foo.__temp5": 13,
+                        "__main__.foo.__temp6": 14,
+                        "__main__.foo.__temp7": 15,
+                        "__main__.foo.range_check_ptr": 7,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 51,
+                    "end_line": 22,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 22
+                }
+            },
+            "24": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 8
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.__temp2": 10,
+                        "__main__.foo.__temp3": 11,
+                        "__main__.foo.__temp4": 12,
+                        "__main__.foo.__temp5": 13,
+                        "__main__.foo.__temp6": 14,
+                        "__main__.foo.__temp7": 15,
+                        "__main__.foo.range_check_ptr": 16,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 24,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 32,
+                            "end_line": 14,
+                            "input_file": {
+                                "filename": "contracts/range_check.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 14,
+                                    "end_line": 25,
+                                    "input_file": {
+                                        "filename": "contracts/range_check.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 25
+                                },
+                                "While trying to retrieve the implicit argument 'range_check_ptr' in:"
+                            ],
+                            "start_col": 10,
+                            "start_line": 14
+                        },
+                        "While expanding the reference 'range_check_ptr' in:"
+                    ],
+                    "start_col": 27,
+                    "start_line": 24
+                }
+            },
+            "26": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 9
+                    },
+                    "reference_ids": {
+                        "__main__.foo.__temp0": 8,
+                        "__main__.foo.__temp1": 9,
+                        "__main__.foo.__temp2": 10,
+                        "__main__.foo.__temp3": 11,
+                        "__main__.foo.__temp4": 12,
+                        "__main__.foo.__temp5": 13,
+                        "__main__.foo.__temp6": 14,
+                        "__main__.foo.__temp7": 15,
+                        "__main__.foo.range_check_ptr": 16,
+                        "__main__.foo.w": 3,
+                        "__main__.foo.x": 4,
+                        "__main__.foo.y": 5,
+                        "__main__.foo.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 25,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 25
+                }
+            },
+            "27": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17
+                    }
+                },
+                "hints": [
+                    {
+                        "location": {
+                            "end_col": 7,
+                            "end_line": 31,
+                            "input_file": {
+                                "filename": "contracts/range_check.cairo"
+                            },
+                            "start_col": 5,
+                            "start_line": 29
+                        },
+                        "n_prefix_newlines": 1
+                    }
+                ],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 32,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 32
+                }
+            },
+            "28": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 26,
+                    "end_line": 33,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 33
+                }
+            },
+            "29": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 48,
+                    "end_line": 34,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 36,
+                    "start_line": 34
+                }
+            },
+            "31": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.__temp8": 20,
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 52,
+                    "end_line": 34,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 36,
+                    "start_line": 34
+                }
+            },
+            "32": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.__temp8": 20,
+                        "__main__.is_divisible_by_3.__temp9": 21,
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 52,
+                    "end_line": 34,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 34
+                }
+            },
+            "33": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.__temp8": 20,
+                        "__main__.is_divisible_by_3.__temp9": 21,
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 30,
+                    "end_line": 35,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 35
+                }
+            },
+            "34": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.__temp8": 20,
+                        "__main__.is_divisible_by_3.__temp9": 21,
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 48,
+                    "end_line": 36,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 36,
+                    "start_line": 36
+                }
+            },
+            "36": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.__temp10": 22,
+                        "__main__.is_divisible_by_3.__temp8": 20,
+                        "__main__.is_divisible_by_3.__temp9": 21,
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 52,
+                    "end_line": 36,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 36,
+                    "start_line": 36
+                }
+            },
+            "37": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 5
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.__temp10": 22,
+                        "__main__.is_divisible_by_3.__temp11": 23,
+                        "__main__.is_divisible_by_3.__temp8": 20,
+                        "__main__.is_divisible_by_3.__temp9": 21,
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 52,
+                    "end_line": 36,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 36
+                }
+            },
+            "38": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 5
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.__temp10": 22,
+                        "__main__.is_divisible_by_3.__temp11": 23,
+                        "__main__.is_divisible_by_3.__temp8": 20,
+                        "__main__.is_divisible_by_3.__temp9": 21,
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 17,
+                    "end_line": 37,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 16,
+                    "start_line": 37
+                }
+            },
+            "40": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.__temp10": 22,
+                        "__main__.is_divisible_by_3.__temp11": 23,
+                        "__main__.is_divisible_by_3.__temp12": 24,
+                        "__main__.is_divisible_by_3.__temp8": 20,
+                        "__main__.is_divisible_by_3.__temp9": 21,
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 37,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 37
+                }
+            },
+            "41": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.__temp10": 22,
+                        "__main__.is_divisible_by_3.__temp11": 23,
+                        "__main__.is_divisible_by_3.__temp12": 24,
+                        "__main__.is_divisible_by_3.__temp8": 20,
+                        "__main__.is_divisible_by_3.__temp9": 21,
+                        "__main__.is_divisible_by_3.range_check_ptr": 25,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 38,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 46,
+                            "end_line": 28,
+                            "input_file": {
+                                "filename": "contracts/range_check.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 14,
+                                    "end_line": 39,
+                                    "input_file": {
+                                        "filename": "contracts/range_check.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 39
+                                },
+                                "While trying to retrieve the implicit argument 'range_check_ptr' in:"
+                            ],
+                            "start_col": 24,
+                            "start_line": 28
+                        },
+                        "While expanding the reference 'range_check_ptr' in:"
+                    ],
+                    "start_col": 27,
+                    "start_line": 38
+                }
+            },
+            "43": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 7
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.__temp10": 22,
+                        "__main__.is_divisible_by_3.__temp11": 23,
+                        "__main__.is_divisible_by_3.__temp12": 24,
+                        "__main__.is_divisible_by_3.__temp8": 20,
+                        "__main__.is_divisible_by_3.__temp9": 21,
+                        "__main__.is_divisible_by_3.range_check_ptr": 25,
+                        "__main__.is_divisible_by_3.x": 17,
+                        "__main__.is_divisible_by_3.y": 19
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 39,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 39
+                }
+            },
+            "44": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.range_check_ptr": 26
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 44,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 44
+                }
+            },
+            "46": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.main.range_check_ptr": 26,
+                        "__main__.main.w": 27
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 45,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 45
+                }
+            },
+            "48": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.main.range_check_ptr": 26,
+                        "__main__.main.w": 27,
+                        "__main__.main.x": 28
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 46,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 46
+                }
+            },
+            "50": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.main.range_check_ptr": 26,
+                        "__main__.main.w": 27,
+                        "__main__.main.x": 28,
+                        "__main__.main.y": 29
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 47,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 47
+                }
+            },
+            "52": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.main.range_check_ptr": 26,
+                        "__main__.main.w": 27,
+                        "__main__.main.x": 28,
+                        "__main__.main.y": 29,
+                        "__main__.main.z": 30
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 33,
+                    "end_line": 42,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 46,
+                            "end_line": 28,
+                            "input_file": {
+                                "filename": "contracts/range_check.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 25,
+                                    "end_line": 50,
+                                    "input_file": {
+                                        "filename": "contracts/range_check.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 50
+                                },
+                                "While trying to retrieve the implicit argument 'range_check_ptr' in:"
+                            ],
+                            "start_col": 24,
+                            "start_line": 28
+                        },
+                        "While expanding the reference 'range_check_ptr' in:"
+                    ],
+                    "start_col": 11,
+                    "start_line": 42
+                }
+            },
+            "53": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 5
+                    },
+                    "reference_ids": {
+                        "__main__.main.range_check_ptr": 26,
+                        "__main__.main.w": 27,
+                        "__main__.main.x": 28,
+                        "__main__.main.y": 29,
+                        "__main__.main.z": 30
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 45,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 24,
+                            "end_line": 50,
+                            "input_file": {
+                                "filename": "contracts/range_check.cairo"
+                            },
+                            "start_col": 23,
+                            "start_line": 50
+                        },
+                        "While expanding the reference 'x' in:"
+                    ],
+                    "start_col": 13,
+                    "start_line": 45
+                }
+            },
+            "54": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.main.range_check_ptr": 26,
+                        "__main__.main.w": 27,
+                        "__main__.main.x": 28,
+                        "__main__.main.y": 29,
+                        "__main__.main.z": 30
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 25,
+                    "end_line": 50,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 50
+                }
+            },
+            "56": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 15
+                    },
+                    "reference_ids": {
+                        "__main__.main.range_check_ptr": 31,
+                        "__main__.main.w": 27,
+                        "__main__.main.x": 28,
+                        "__main__.main.y": 29,
+                        "__main__.main.z": 30
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 51,
+                    "input_file": {
+                        "filename": "contracts/range_check.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 51
+                }
+            }
+        }
+    },
+    "hints": {
+        "27": [
+            {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.is_divisible_by_3"
+                ],
+                "code": "memory[ap] = int(ids.x / 3)",
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.is_divisible_by_3.range_check_ptr": 18,
+                        "__main__.is_divisible_by_3.x": 17
+                    }
+                }
+            }
+        ]
+    },
+    "identifiers": {
+        "__main__.foo": {
+            "decorators": [],
+            "pc": 4,
+            "type": "function"
+        },
+        "__main__.foo.Args": {
+            "full_name": "__main__.foo.Args",
+            "members": {
+                "w": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "x": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                },
+                "y": {
+                    "cairo_type": "felt",
+                    "offset": 2
+                },
+                "z": {
+                    "cairo_type": "felt",
+                    "offset": 3
+                }
+            },
+            "size": 4,
+            "type": "struct"
+        },
+        "__main__.foo.ImplicitArgs": {
+            "full_name": "__main__.foo.ImplicitArgs",
+            "members": {
+                "range_check_ptr": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "__main__.foo.Return": {
+            "full_name": "__main__.foo.Return",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.foo.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.foo.__temp0": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.__temp0",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 1
+                    },
+                    "pc": 10,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.__temp1": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.__temp1",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "pc": 11,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.__temp2": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.__temp2",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 3
+                    },
+                    "pc": 14,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.__temp3": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.__temp3",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 4
+                    },
+                    "pc": 15,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.__temp4": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.__temp4",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 5
+                    },
+                    "pc": 18,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.__temp5": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.__temp5",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 6
+                    },
+                    "pc": 19,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.__temp6": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.__temp6",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 7
+                    },
+                    "pc": 22,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.__temp7": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.__temp7",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 8
+                    },
+                    "pc": 23,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.range_check_ptr": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.range_check_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "[cast(fp + (-7), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 8
+                    },
+                    "pc": 24,
+                    "value": "cast([fp + (-7)] + 8, felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.w": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.w",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "[cast(fp + (-6), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.x": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.x",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "[cast(fp + (-5), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.y": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.y",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.z": {
+            "cairo_type": "felt",
+            "full_name": "__main__.foo.z",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.is_divisible_by_3": {
+            "decorators": [],
+            "pc": 27,
+            "type": "function"
+        },
+        "__main__.is_divisible_by_3.Args": {
+            "full_name": "__main__.is_divisible_by_3.Args",
+            "members": {
+                "x": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "__main__.is_divisible_by_3.ImplicitArgs": {
+            "full_name": "__main__.is_divisible_by_3.ImplicitArgs",
+            "members": {
+                "range_check_ptr": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "__main__.is_divisible_by_3.Return": {
+            "full_name": "__main__.is_divisible_by_3.Return",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.is_divisible_by_3.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.is_divisible_by_3.__temp10": {
+            "cairo_type": "felt",
+            "full_name": "__main__.is_divisible_by_3.__temp10",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 4
+                    },
+                    "pc": 36,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.is_divisible_by_3.__temp11": {
+            "cairo_type": "felt",
+            "full_name": "__main__.is_divisible_by_3.__temp11",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 5
+                    },
+                    "pc": 37,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.is_divisible_by_3.__temp12": {
+            "cairo_type": "felt",
+            "full_name": "__main__.is_divisible_by_3.__temp12",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 6
+                    },
+                    "pc": 40,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.is_divisible_by_3.__temp8": {
+            "cairo_type": "felt",
+            "full_name": "__main__.is_divisible_by_3.__temp8",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 2
+                    },
+                    "pc": 31,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.is_divisible_by_3.__temp9": {
+            "cairo_type": "felt",
+            "full_name": "__main__.is_divisible_by_3.__temp9",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 3
+                    },
+                    "pc": 32,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.is_divisible_by_3.range_check_ptr": {
+            "cairo_type": "felt",
+            "full_name": "__main__.is_divisible_by_3.range_check_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 27,
+                    "value": "[cast(fp + (-4), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 6
+                    },
+                    "pc": 41,
+                    "value": "cast([fp + (-4)] + 4, felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.is_divisible_by_3.x": {
+            "cairo_type": "felt",
+            "full_name": "__main__.is_divisible_by_3.x",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 27,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.is_divisible_by_3.y": {
+            "cairo_type": "felt",
+            "full_name": "__main__.is_divisible_by_3.y",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "pc": 28,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main": {
+            "decorators": [],
+            "pc": 44,
+            "type": "function"
+        },
+        "__main__.main.Args": {
+            "full_name": "__main__.main.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.ImplicitArgs": {
+            "full_name": "__main__.main.ImplicitArgs",
+            "members": {
+                "range_check_ptr": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "__main__.main.Return": {
+            "full_name": "__main__.main.Return",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.range_check_ptr": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.range_check_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 44,
+                    "value": "[cast(fp + (-3), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 15
+                    },
+                    "pc": 56,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.w": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.w",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "pc": 46,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.x": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.x",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 2
+                    },
+                    "pc": 48,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.y": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.y",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 3
+                    },
+                    "pc": 50,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.z": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.z",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 4
+                    },
+                    "pc": 52,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.serialize_word": {
+            "destination": "starkware.cairo.common.serialize.serialize_word",
+            "type": "alias"
+        },
+        "starkware.cairo.common.serialize.serialize_word": {
+            "decorators": [],
+            "pc": 0,
+            "type": "function"
+        },
+        "starkware.cairo.common.serialize.serialize_word.Args": {
+            "full_name": "starkware.cairo.common.serialize.serialize_word.Args",
+            "members": {
+                "word": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.serialize.serialize_word.ImplicitArgs": {
+            "full_name": "starkware.cairo.common.serialize.serialize_word.ImplicitArgs",
+            "members": {
+                "output_ptr": {
+                    "cairo_type": "felt*",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.serialize.serialize_word.Return": {
+            "full_name": "starkware.cairo.common.serialize.serialize_word.Return",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "starkware.cairo.common.serialize.serialize_word.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "starkware.cairo.common.serialize.serialize_word.output_ptr": {
+            "cairo_type": "felt*",
+            "full_name": "starkware.cairo.common.serialize.serialize_word.output_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 0,
+                    "value": "[cast(fp + (-4), felt**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 1,
+                    "value": "cast([fp + (-4)] + 1, felt*)"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.serialize.serialize_word.word": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.serialize.serialize_word.word",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 0,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        }
+    },
+    "main_scope": "__main__",
+    "prime": "0x800000000000011000000000000000000000000000000000000000000000001",
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 0,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 0,
+                "value": "[cast(fp + (-4), felt**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 1,
+                "value": "cast([fp + (-4)] + 1, felt*)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "[cast(fp + (-6), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "[cast(fp + (-5), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "[cast(fp + (-7), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 1
+                },
+                "pc": 10,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 2
+                },
+                "pc": 11,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 3
+                },
+                "pc": 14,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 4
+                },
+                "pc": 15,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 5
+                },
+                "pc": 18,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 6
+                },
+                "pc": 19,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 7
+                },
+                "pc": 22,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 8
+                },
+                "pc": 23,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 8
+                },
+                "pc": 24,
+                "value": "cast([fp + (-7)] + 8, felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 27,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 27,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 1
+                },
+                "pc": 28,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 2
+                },
+                "pc": 31,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 3
+                },
+                "pc": 32,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 4
+                },
+                "pc": 36,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 5
+                },
+                "pc": 37,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 6
+                },
+                "pc": 40,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 6
+                },
+                "pc": 41,
+                "value": "cast([fp + (-4)] + 4, felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 44,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 1
+                },
+                "pc": 46,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 2
+                },
+                "pc": 48,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 3
+                },
+                "pc": 50,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 4
+                },
+                "pc": 52,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 15
+                },
+                "pc": 56,
+                "value": "[cast(ap + (-1), felt*)]"
+            }
+        ]
+    }
+}

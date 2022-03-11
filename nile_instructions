@@ -1,0 +1,27 @@
+docker run --rm -it -v %cd%:/work --workdir /work lucaslvy/nile:latest
+docker run --rm -it -v %cd%:/work --workdir /work lucaslvy/nile:latest
+Usage: nile [OPTIONS] COMMAND [ARGS]...
+
+  Nile CLI group.
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  call     Call functions of StarkNet smart contracts.
+  clean    Remove default build directory.
+  compile  Compile cairo contracts.
+  deploy   Deploy StarkNet smart contract.
+  init     Nile CLI group.
+  install  Install Cairo.
+  invoke   Invoke functions of StarkNet smart contracts.
+  node     Start StarkNet local network.
+  run      Run Nile scripts with NileRuntimeEnvironment.
+  send     Invoke a contract's method through an Account.
+  setup    Set up an Account contract.
+  test     Run cairo test contracts.
+  version  Print out toolchain version.
+
+docker run --rm -it -v %cd%:/work --workdir /work shardlabs/cairo-cli:0.7.1 cairo-compile contracts/range_check.cairo --output artifacts/range_check.json
+
+docker run --rm -it -v %cd%:/work --workdir /work shardlabs/cairo-cli:0.7.1 cairo-run --program=artifacts/range_check.json --print_output --layout=small
